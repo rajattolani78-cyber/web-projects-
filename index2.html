@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Wireless Headphones - Shopnow</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-white">
+    <!-- Header -->
+    <div class="bg-white shadow sticky top-0 z-50">
+        <header class="flex justify-between items-center mx-auto py-4 px-4 md:px-8 max-w-7xl">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-900">Shopnow</h2>
+            
+            <!-- Search and Cart - Hidden on mobile, visible on tablet+ -->
+            <div class="hidden md:flex gap-4 items-center flex-1 mx-8">
+                <input type="text" placeholder="Search products..." 
+                    class="flex-1 border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-600">
+            </div>
+            
+            <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 md:px-6 py-2 rounded-lg font-medium transition-colors duration-200">
+                Cart (0)
+            </button>
+        </header>
+
+        <!-- Mobile Search Bar -->
+        <div class="md:hidden px-4 pb-4">
+            <input type="text" placeholder="Search..." 
+                class="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-600">
+        </div>
+    </div>
+
+    <!-- Product Section -->
+    <section class="max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+            
+            <!-- Product Image -->
+            <div class="flex items-center justify-center">
+                <div class="bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg w-full aspect-square flex items-center justify-center hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-gray-400 text-lg md:text-xl">Product Image</div>
+                </div>
+            </div>
+
+            <!-- Product Details -->
+            <div class="flex flex-col justify-start">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Premium Wireless Headphones</h1>
+                
+                <!-- Rating -->
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="text-yellow-500 text-lg">★★★★★</span>
+                    <span class="text-gray-600 text-sm">(128 reviews)</span>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-6">
+                    <span class="text-4xl font-bold text-blue-600">$299</span>
+                    <span class="text-lg text-gray-500 line-through ml-3">$399</span>
+                    <span class="bg-red-100 text-red-700 text-sm font-semibold px-3 py-1 rounded-full ml-3">25% off</span>
+                </div>
+
+                <!-- Description -->
+                <p class="text-gray-600 mb-6 text-base leading-relaxed">
+                    High-quality wireless headphones with active noise cancellation, 30-hour battery life, and premium comfort. Perfect for music lovers and professionals alike.
+                </p>
+
+                <!-- Features -->
+                <div class="space-y-3 mb-8">
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-600 text-xl">✓</span>
+                        <span class="text-gray-700">Active Noise Cancellation</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-600 text-xl">✓</span>
+                        <span class="text-gray-700">30-Hour Battery Life</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-green-600 text-xl">✓</span>
+                        <span class="text-gray-700">Bluetooth 5.0 Connectivity</span>
+                    </div>
+                </div>
+
+                <!-- Color Selection -->
+                <div class="mb-8">
+                    <label class="block font-semibold text-gray-900 mb-3">Color</label>
+                    <div class="flex gap-3">
+                        <button class="w-10 h-10 rounded-full bg-black border-3 border-gray-300 hover:border-gray-800 transition-colors" aria-label="Black"></button>
+                        <button class="w-10 h-10 rounded-full bg-blue-500 border-3 border-gray-300 hover:border-blue-600 transition-colors" aria-label="Blue"></button>
+                        <button class="w-10 h-10 rounded-full bg-gray-100 border-3 border-gray-300 hover:border-gray-400 transition-colors" aria-label="White"></button>
+                    </div>
+                </div>
+
+                <!-- Quantity Selection -->
+                <div class="mb-8">
+                    <label class="block font-semibold text-gray-900 mb-3">Quantity</label>
+                    <div class="flex items-center gap-2 bg-gray-100 w-fit rounded-lg p-1">
+                        <button class="px-4 py-2 text-gray-600 hover:bg-gray-200 rounded transition-colors">−</button>
+                        <span class="px-4 py-2 font-semibold text-gray-900 min-w-12 text-center">1</span>
+                        <button class="px-4 py-2 text-gray-600 hover:bg-gray-200 rounded transition-colors">+</button>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <button class="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-3 md:py-4 rounded-lg font-bold text-lg transition-colors duration-200">
+                        Add to Cart
+                    </button>
+                    <button class="flex-1 bg-white hover:bg-gray-50 text-blue-600 py-3 md:py-4 font-bold text-lg border-2 border-blue-600 rounded-lg transition-colors duration-200">
+                        ♥ Wishlist
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="bg-gray-50 border-t border-gray-200 py-12 md:py-16">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <h2 class="text-2xl md:text-3xl font-bold mb-8 text-gray-900">Customer Reviews</h2>
+            
+            <div class="space-y-8">
+                <!-- Review 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="font-bold text-gray-900">John Doe</span>
+                        <span class="text-yellow-500">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700 mb-3">Amazing quality and comfort! Best headphones I've owned. Great noise cancellation!</p>
+                    <span class="text-sm text-gray-500">2 days ago</span>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="font-bold text-gray-900">Jane Smith</span>
+                        <span class="text-yellow-500">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700 mb-3">Great product, delivery could be faster. Otherwise, very satisfied with my purchase!</p>
+                    <span class="text-sm text-gray-500">1 week ago</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products Section -->
+    <section class="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
+        <h2 class="text-2xl md:text-3xl font-bold mb-8 text-gray-900">Related Products</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- Product Card 1 -->
+            <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                <div class="bg-gray-200 h-40 md:h-48 w-full"></div>
+                <div class="p-4 md:p-6">
+                    <h3 class="font-bold text-gray-900 mb-3 text-base md:text-lg">Wireless Speaker</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-blue-600 font-bold text-lg">$99</span>
+                        <span class="text-yellow-500 text-sm">★★★★★</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                <div class="bg-gray-200 h-40 md:h-48 w-full"></div>
+                <div class="p-4 md:p-6">
+                    <h3 class="font-bold text-gray-900 mb-3 text-base md:text-lg">Phone Case</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-blue-600 font-bold text-lg">$29</span>
+                        <span class="text-yellow-500 text-sm">★★★★☆</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                <div class="bg-gray-200 h-40 md:h-48 w-full"></div>
+                <div class="p-4 md:p-6">
+                    <h3 class="font-bold text-gray-900 mb-3 text-base md:text-lg">Screen Protector</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-blue-600 font-bold text-lg">$15</span>
+                        <span class="text-yellow-500 text-sm">★★★★★</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 4 -->
+            <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                <div class="bg-gray-200 h-40 md:h-48 w-full"></div>
+                <div class="p-4 md:p-6">
+                    <h3 class="font-bold text-gray-900 mb-3 text-base md:text-lg">USB Cable</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-blue-600 font-bold text-lg">$12</span>
+                        <span class="text-yellow-500 text-sm">★★★★☆</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 md:px-8 text-center text-sm">
+            <p>&copy; 2024 Shopnow. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
